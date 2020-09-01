@@ -1956,7 +1956,10 @@
   dimensions = (horizontal_dimension)
   type = real
   kind = kind_phys
+<<<<<<< HEAD
   active = (flag_for_flux_coupling)
+=======
+>>>>>>> upstream/develop
 [hsnoin_cpl]
   standard_name = surface_snow_thickness_for_coupling
   long_name = sfc snow depth in meters over sea ice for coupling
@@ -9115,7 +9118,10 @@
   dimensions = (horizontal_dimension,vertical_dimension)
   type = real
   kind = kind_phys
+<<<<<<< HEAD
   active = (flag_for_rrtmgp_radiation_scheme)
+=======
+>>>>>>> upstream/develop
 [deltaZ]
   standard_name = layer_thickness
   long_name = layer_thickness
@@ -9123,7 +9129,10 @@
   dimensions = (horizontal_dimension,vertical_dimension)
   type = real
   kind = kind_phys
+<<<<<<< HEAD
   active = (flag_for_rrtmgp_radiation_scheme)
+=======
+>>>>>>> upstream/develop
 [tracer]
   standard_name = chemical_tracers
   long_name = chemical tracers
@@ -9131,7 +9140,10 @@
   dimensions = (horizontal_dimension,vertical_dimension,number_of_tracers)
   type = real
   kind = kind_phys
+<<<<<<< HEAD
   active = (flag_for_rrtmgp_radiation_scheme)
+=======
+>>>>>>> upstream/develop
 [cloud_overlap_param]
   standard_name = cloud_overlap_param
   long_name = cloud overlap parameter
@@ -9139,7 +9151,10 @@
   dimensions = (horizontal_dimension,vertical_dimension)
   type = real
   kind = kind_phys
+<<<<<<< HEAD
   active = (flag_for_rrtmgp_radiation_scheme)
+=======
+>>>>>>> upstream/develop
 [precip_overlap_param]
   standard_name = precip_overlap_param
   long_name = precipitation overlap parameter
@@ -9147,7 +9162,10 @@
   dimensions = (horizontal_dimension,vertical_dimension)
   type = real
   kind = kind_phys
+<<<<<<< HEAD
   active = (flag_for_rrtmgp_radiation_scheme)
+=======
+>>>>>>> upstream/develop
 [ipsdsw0]
   standard_name = initial_permutation_seed_sw
   long_name = initial seed for McICA SW 
@@ -9209,7 +9227,10 @@
   dimensions = (horizontal_dimension,vertical_dimension_plus_one)
   type = real
   kind = kind_phys
+<<<<<<< HEAD
   active = (flag_for_rrtmgp_radiation_scheme)
+=======
+>>>>>>> upstream/develop
 [sktp1r]
   standard_name = surface_skin_temperature_at_previous_time_step
   long_name = surface skin temperature at previous time step
@@ -9348,14 +9369,20 @@
   units = none
   dimensions = (horizontal_dimension)
   type = integer
+<<<<<<< HEAD
   active = (flag_for_rrtmgp_radiation_scheme)
+=======
+>>>>>>> upstream/develop
 [icseed_sw]
   standard_name = seed_random_numbers_sw_for_RRTMGP
   long_name = seed for random number generation for shortwave radiation
   units = none
   dimensions = (horizontal_dimension)
   type = integer
+<<<<<<< HEAD
   active = (flag_for_rrtmgp_radiation_scheme)
+=======
+>>>>>>> upstream/develop
 [precip_frac]
   standard_name = precipitation_fraction_by_layer
   long_name = precipitation fraction in each layer
@@ -9363,7 +9390,10 @@
   dimensions = (horizontal_dimension,vertical_dimension)
   type = real
   kind = kind_phys
+<<<<<<< HEAD
   active = (flag_for_rrtmgp_radiation_scheme)
+=======
+>>>>>>> upstream/develop
 [sw_gas_props]
   standard_name = coefficients_for_sw_gas_optics
   long_name = DDT containing spectral information for RRTMGP SW radiation scheme
