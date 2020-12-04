@@ -10708,3 +10708,10 @@
   dimensions = ()
   type = real 
   kind = kind_phys
+[rainmin]
+  standard_name = lwe_thickness_of_minimum_rain_amount
+  long_name = minimum rain amount
+  units = m
+  dimensions = ()
+  type = real 
+  kind = kind_phys
