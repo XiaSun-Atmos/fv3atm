@@ -4,13 +4,15 @@ module GFS_typedefs
 
        use machine,                  only: kind_phys
 #ifdef CCPP
-       use physcons,                 only: con_cp, con_fvirt, con_g, rainmin               &
+       use physcons,                 only: con_cp, con_fvirt, con_g, rainmin, karman,      &
                                            con_hvap, con_hfus, con_pi, con_rd, con_rv,     &
                                            con_t0c, con_cvap, con_cliq, con_eps, con_epsq, &
                                            con_epsm1, con_ttp, rlapse, con_jcal, con_rhw0, &
                                            con_sbc, con_tice, cimin, con_p0, rhowater,     &
                                            con_csol, con_epsqs, con_rocp, con_rog,         &
-                                           con_omega, con_rerth
+                                           con_omega, con_rerth, con_rd_dyn,con_rv_dyn,    &
+                                           con_hvap_dyn,con_hfus_dyn,con_cp_dyn,con_g_dyn, &
+                                           con_psat,con_avgd,con_amd,con_amw,con_amo3
 
        use module_radsw_parameters,  only: topfsw_type, sfcfsw_type, profsw_type, cmpfsw_type, NBDSW
        use module_radlw_parameters,  only: topflw_type, sfcflw_type, proflw_type, NBDLW
